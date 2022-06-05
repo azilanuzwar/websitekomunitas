@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+nav {	background-color: #B0E0E6;
+	padding: 5px;
+	position: sticky;
+	top: 0; }
+
+nav a {	font-size: 25px;
+	font-weight: 500;
+   	text-decoration: none;
+   	color: white;}
+
+a:hover { color: pink; }
+
+.profil { width: 100%;
+	object-fit: cover;
+	object-position: center; }
+
+.jumbroton {
+	font-size: 20px;
+	padding: 50px;
+	background-color: #87CEEB;
+	text-align: center;
+	color: white; }
+.tema {color: blue;}
+.jenis{color: blue;
+	}
+.stabilo { background-color: #B0E0E6;}
+.rounded {  border: 2px solid #B0E0E6;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2);
+ 	padding: 20px;
+	margin: 0 auto; 
+	margin-top: 10px;}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 0; }
+
+main {	padding: 20px;
+	overflow: auto;}
+h1 {font-size: 2em; }
+h2, h3{
+	color: #00a2c6; }
+
+footer {
+	padding: 10px; 
+	color:white; 
+	background-color: #87CEEB;
+	text-align: center;
+	font-weight: bold;}
+#content {
+	float: center; 
+	width: 100%;}
+aside {	float: right;
+	width: 50%;
+	padding-left: 100px; }
+
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 1000px) {
+
+#content {
+	width: 100%;
+	padding: 0;
+	
+}}
+header {
+	display: inline; 
+	margin-left: 5px;}
